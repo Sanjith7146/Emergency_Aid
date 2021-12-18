@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CC7D4EC24FE051600C2984E /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC7D4EB24FE051600C2984E /* NewViewController.swift */; };
+		C51AFF9824DB907400062CF1 /* PackingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51AFF9724DB907400062CF1 /* PackingVC.swift */; };
+		C51AFF9A24DB91D700062CF1 /* packingListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51AFF9924DB91D700062CF1 /* packingListVC.swift */; };
+		C51B7FED2501190B009EF309 /* Bottled Water.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FD92501190A009EF309 /* Bottled Water.jpeg */; };
+		C51B7FEE2501190B009EF309 /* Bottled Water.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FD92501190A009EF309 /* Bottled Water.jpeg */; };
+		C51B7FEF2501190B009EF309 /* Important Documents.png in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FDA2501190A009EF309 /* Important Documents.png */; };
+		C51B7FF02501190B009EF309 /* Important Documents.png in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FDA2501190A009EF309 /* Important Documents.png */; };
+		C51B7FF32501190B009EF309 /* Dry food.png in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FDC2501190A009EF309 /* Dry food.png */; };
+		C51B7FF42501190B009EF309 /* Dry food.png in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FDC2501190A009EF309 /* Dry food.png */; };
+		C51B7FF52501190B009EF309 /* List of personal contacts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FDD2501190A009EF309 /* List of personal contacts.jpg */; };
+		C51B7FF62501190B009EF309 /* List of personal contacts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FDD2501190A009EF309 /* List of personal contacts.jpg */; };
+		C51B7FF72501190B009EF309 /* Childcare supplies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FDE2501190A009EF309 /* Childcare supplies.jpg */; };
+		C51B7FF82501190B009EF309 /* Childcare supplies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FDE2501190A009EF309 /* Childcare supplies.jpg */; };
+		C51B7FF92501190B009EF309 /* Spare clothes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FDF2501190A009EF309 /* Spare clothes.jpg */; };
+		C51B7FFA2501190B009EF309 /* Spare clothes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FDF2501190A009EF309 /* Spare clothes.jpg */; };
+		C51B7FFB2501190B009EF309 /* Surgical mask.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FE02501190A009EF309 /* Surgical mask.jpeg */; };
+		C51B7FFC2501190B009EF309 /* Surgical mask.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FE02501190A009EF309 /* Surgical mask.jpeg */; };
+		C51B7FFD2501190B009EF309 /* Torchlight.png in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FE12501190A009EF309 /* Torchlight.png */; };
+		C51B7FFE2501190B009EF309 /* Torchlight.png in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FE12501190A009EF309 /* Torchlight.png */; };
+		C51B7FFF2501190B009EF309 /* Emergency Contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FE22501190B009EF309 /* Emergency Contacts.png */; };
+		C51B80002501190B009EF309 /* Emergency Contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FE22501190B009EF309 /* Emergency Contacts.png */; };
+		C51B80012501190B009EF309 /* output-onlinejpgtools.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FE32501190B009EF309 /* output-onlinejpgtools.jpg */; };
+		C51B80022501190B009EF309 /* output-onlinejpgtools.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FE32501190B009EF309 /* output-onlinejpgtools.jpg */; };
+		C51B80052501190B009EF309 /* Screenshot 2020-08-20 at 9.08.28 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FE52501190B009EF309 /* Screenshot 2020-08-20 at 9.08.28 AM.png */; };
+		C51B80062501190B009EF309 /* Screenshot 2020-08-20 at 9.08.28 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FE52501190B009EF309 /* Screenshot 2020-08-20 at 9.08.28 AM.png */; };
+		C51B80072501190B009EF309 /* First aid kit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FE62501190B009EF309 /* First aid kit.jpg */; };
+		C51B80082501190B009EF309 /* First aid kit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FE62501190B009EF309 /* First aid kit.jpg */; };
+		C51B80092501190B009EF309 /* N95.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FE72501190B009EF309 /* N95.jpeg */; };
+		C51B800A2501190B009EF309 /* N95.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FE72501190B009EF309 /* N95.jpeg */; };
+		C51B800B2501190B009EF309 /* Battery.png in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FE82501190B009EF309 /* Battery.png */; };
+		C51B800C2501190B009EF309 /* Battery.png in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FE82501190B009EF309 /* Battery.png */; };
+		C51B800D2501190B009EF309 /* Cash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FE92501190B009EF309 /* Cash.jpg */; };
+		C51B800E2501190B009EF309 /* Cash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FE92501190B009EF309 /* Cash.jpg */; };
+		C51B800F2501190B009EF309 /* personal medication.png in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FEA2501190B009EF309 /* personal medication.png */; };
+		C51B80102501190B009EF309 /* personal medication.png in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FEA2501190B009EF309 /* personal medication.png */; };
+		C51B80112501190B009EF309 /* Whistle.png in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FEB2501190B009EF309 /* Whistle.png */; };
+		C51B80122501190B009EF309 /* Whistle.png in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FEB2501190B009EF309 /* Whistle.png */; };
+		C51B80132501190B009EF309 /* Hand Sanitizer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FEC2501190B009EF309 /* Hand Sanitizer.jpg */; };
+		C51B80142501190B009EF309 /* Hand Sanitizer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C51B7FEC2501190B009EF309 /* Hand Sanitizer.jpg */; };
+		C51F32DB24FE7A0C003C761A /* output-onlinejpgtools.png in Resources */ = {isa = PBXBuildFile; fileRef = C51F32DA24FE7A0C003C761A /* output-onlinejpgtools.png */; };
+		C537739D25011BE6008B87D5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C537739C25011BE6008B87D5 /* WebKit.framework */; };
+		C542D81125011E3500704F9F /* cm image.png in Resources */ = {isa = PBXBuildFile; fileRef = C542D81025011E3500704F9F /* cm image.png */; };
+		C54841D724ECAF27006CBFFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54841D624ECAF27006CBFFA /* Main.storyboard */; };
+		C573E09924EA460900DE1B12 /* BrandVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C573E09824EA460900DE1B12 /* BrandVC.swift */; };
+		C580AF1B24DCF34200553DBD /* UsageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C580AF1A24DCF34200553DBD /* UsageVC.swift */; };
+		C580AF1D24DCF6EB00553DBD /* CoronaCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C580AF1C24DCF6EB00553DBD /* CoronaCounter.swift */; };
+		C58CA37324F2272B00B14815 /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58CA37224F2272B00B14815 /* Struct.swift */; };
+		C5C03C3D24DA3D9B00CE4FF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C03C3C24DA3D9B00CE4FF5 /* AppDelegate.swift */; };
+		C5C03C3F24DA3D9B00CE4FF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C03C3E24DA3D9B00CE4FF5 /* SceneDelegate.swift */; };
+		C5C03C4124DA3D9B00CE4FF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C03C4024DA3D9B00CE4FF5 /* ViewController.swift */; };
+		C5C03C4624DA3D9F00CE4FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C03C4524DA3D9F00CE4FF5 /* Assets.xcassets */; };
+		C5C03C4924DA3D9F00CE4FF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C03C4724DA3D9F00CE4FF5 /* LaunchScreen.storyboard */; };
+		C5C03C5424DA3D9F00CE4FF5 /* Emergency_AidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C03C5324DA3D9F00CE4FF5 /* Emergency_AidTests.swift */; };
+		C5C03C5F24DA3D9F00CE4FF5 /* Emergency_AidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C03C5E24DA3D9F00CE4FF5 /* Emergency_AidUITests.swift */; };
+		C5C03C6D24DA417500CE4FF5 /* emergency_Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C03C6C24DA417500CE4FF5 /* emergency_Contacts.swift */; };
+		C5C03C6F24DA41AB00CE4FF5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C03C6E24DA41AB00CE4FF5 /* Data.swift */; };
+		C5C03C7124DA45C600CE4FF5 /* VC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C03C7024DA45C600CE4FF5 /* VC1.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5C03C5024DA3D9F00CE4FF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5C03C3124DA3D9B00CE4FF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5C03C3824DA3D9B00CE4FF5;
+			remoteInfo = "Emergency Aid";
+		};
+		C5C03C5B24DA3D9F00CE4FF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5C03C3124DA3D9B00CE4FF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5C03C3824DA3D9B00CE4FF5;
+			remoteInfo = "Emergency Aid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CC7D4EB24FE051600C2984E /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		C51AFF9724DB907400062CF1 /* PackingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackingVC.swift; sourceTree = "<group>"; };
+		C51AFF9924DB91D700062CF1 /* packingListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = packingListVC.swift; sourceTree = "<group>"; };
+		C51B7FD92501190A009EF309 /* Bottled Water.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bottled Water.jpeg"; sourceTree = "<group>"; };
+		C51B7FDA2501190A009EF309 /* Important Documents.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Important Documents.png"; sourceTree = "<group>"; };
+		C51B7FDC2501190A009EF309 /* Dry food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dry food.png"; sourceTree = "<group>"; };
+		C51B7FDD2501190A009EF309 /* List of personal contacts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "List of personal contacts.jpg"; sourceTree = "<group>"; };
+		C51B7FDE2501190A009EF309 /* Childcare supplies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Childcare supplies.jpg"; sourceTree = "<group>"; };
+		C51B7FDF2501190A009EF309 /* Spare clothes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spare clothes.jpg"; sourceTree = "<group>"; };
+		C51B7FE02501190A009EF309 /* Surgical mask.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Surgical mask.jpeg"; sourceTree = "<group>"; };
+		C51B7FE12501190A009EF309 /* Torchlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Torchlight.png; sourceTree = "<group>"; };
+		C51B7FE22501190B009EF309 /* Emergency Contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Emergency Contacts.png"; sourceTree = "<group>"; };
+		C51B7FE32501190B009EF309 /* output-onlinejpgtools.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "output-onlinejpgtools.jpg"; sourceTree = "<group>"; };
+		C51B7FE52501190B009EF309 /* Screenshot 2020-08-20 at 9.08.28 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2020-08-20 at 9.08.28 AM.png"; sourceTree = "<group>"; };
+		C51B7FE62501190B009EF309 /* First aid kit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "First aid kit.jpg"; sourceTree = "<group>"; };
+		C51B7FE72501190B009EF309 /* N95.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = N95.jpeg; sourceTree = "<group>"; };
+		C51B7FE82501190B009EF309 /* Battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Battery.png; sourceTree = "<group>"; };
+		C51B7FE92501190B009EF309 /* Cash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cash.jpg; sourceTree = "<group>"; };
+		C51B7FEA2501190B009EF309 /* personal medication.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "personal medication.png"; sourceTree = "<group>"; };
+		C51B7FEB2501190B009EF309 /* Whistle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Whistle.png; sourceTree = "<group>"; };
+		C51B7FEC2501190B009EF309 /* Hand Sanitizer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hand Sanitizer.jpg"; sourceTree = "<group>"; };
+		C51F32DA24FE7A0C003C761A /* output-onlinejpgtools.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "output-onlinejpgtools.png"; sourceTree = "<group>"; };
+		C537739C25011BE6008B87D5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C542D81025011E3500704F9F /* cm image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm image.png"; sourceTree = "<group>"; };
+		C54841D624ECAF27006CBFFA /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C573E09824EA460900DE1B12 /* BrandVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandVC.swift; sourceTree = "<group>"; };
+		C580AF1A24DCF34200553DBD /* UsageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageVC.swift; sourceTree = "<group>"; };
+		C580AF1C24DCF6EB00553DBD /* CoronaCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoronaCounter.swift; sourceTree = "<group>"; };
+		C58CA37224F2272B00B14815 /* Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
+		C5C03C3924DA3D9B00CE4FF5 /* Emergency Aid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emergency Aid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C03C3C24DA3D9B00CE4FF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5C03C3E24DA3D9B00CE4FF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C5C03C4024DA3D9B00CE4FF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5C03C4524DA3D9F00CE4FF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5C03C4824DA3D9F00CE4FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5C03C4A24DA3D9F00CE4FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5C03C4F24DA3D9F00CE4FF5 /* Emergency AidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emergency AidTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C03C5324DA3D9F00CE4FF5 /* Emergency_AidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emergency_AidTests.swift; sourceTree = "<group>"; };
+		C5C03C5524DA3D9F00CE4FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5C03C5A24DA3D9F00CE4FF5 /* Emergency AidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emergency AidUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C03C5E24DA3D9F00CE4FF5 /* Emergency_AidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emergency_AidUITests.swift; sourceTree = "<group>"; };
+		C5C03C6024DA3D9F00CE4FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5C03C6C24DA417500CE4FF5 /* emergency_Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emergency_Contacts.swift; sourceTree = "<group>"; };
+		C5C03C6E24DA41AB00CE4FF5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		C5C03C7024DA45C600CE4FF5 /* VC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC1.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5C03C3624DA3D9B00CE4FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C537739D25011BE6008B87D5 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C03C4C24DA3D9F00CE4FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C03C5724DA3D9F00CE4FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C537739B25011BE6008B87D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C537739C25011BE6008B87D5 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5C03C3024DA3D9B00CE4FF5 = {
+			isa = PBXGroup;
+			children = (
+				C5C03C3B24DA3D9B00CE4FF5 /* Emergency Aid */,
+				C5C03C5224DA3D9F00CE4FF5 /* Emergency AidTests */,
+				C5C03C5D24DA3D9F00CE4FF5 /* Emergency AidUITests */,
+				C5C03C3A24DA3D9B00CE4FF5 /* Products */,
+				C537739B25011BE6008B87D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5C03C3A24DA3D9B00CE4FF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5C03C3924DA3D9B00CE4FF5 /* Emergency Aid.app */,
+				C5C03C4F24DA3D9F00CE4FF5 /* Emergency AidTests.xctest */,
+				C5C03C5A24DA3D9F00CE4FF5 /* Emergency AidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5C03C3B24DA3D9B00CE4FF5 /* Emergency Aid */ = {
+			isa = PBXGroup;
+			children = (
+				C542D81025011E3500704F9F /* cm image.png */,
+				C51F32DA24FE7A0C003C761A /* output-onlinejpgtools.png */,
+				C51B7FE82501190B009EF309 /* Battery.png */,
+				C51B7FD92501190A009EF309 /* Bottled Water.jpeg */,
+				C51B7FE92501190B009EF309 /* Cash.jpg */,
+				C51B7FDE2501190A009EF309 /* Childcare supplies.jpg */,
+				C51B7FDC2501190A009EF309 /* Dry food.png */,
+				C51B7FE22501190B009EF309 /* Emergency Contacts.png */,
+				C51B7FE62501190B009EF309 /* First aid kit.jpg */,
+				C51B7FEC2501190B009EF309 /* Hand Sanitizer.jpg */,
+				C51B7FDA2501190A009EF309 /* Important Documents.png */,
+				C51B7FDD2501190A009EF309 /* List of personal contacts.jpg */,
+				C51B7FE72501190B009EF309 /* N95.jpeg */,
+				C51B7FE32501190B009EF309 /* output-onlinejpgtools.jpg */,
+				C51B7FEA2501190B009EF309 /* personal medication.png */,
+				C51B7FE52501190B009EF309 /* Screenshot 2020-08-20 at 9.08.28 AM.png */,
+				C51B7FDF2501190A009EF309 /* Spare clothes.jpg */,
+				C51B7FE02501190A009EF309 /* Surgical mask.jpeg */,
+				C51B7FE12501190A009EF309 /* Torchlight.png */,
+				C51B7FEB2501190B009EF309 /* Whistle.png */,
+				C5C03C3C24DA3D9B00CE4FF5 /* AppDelegate.swift */,
+				C5C03C3E24DA3D9B00CE4FF5 /* SceneDelegate.swift */,
+				C5C03C4024DA3D9B00CE4FF5 /* ViewController.swift */,
+				C54841D624ECAF27006CBFFA /* Main.storyboard */,
+				C5C03C4524DA3D9F00CE4FF5 /* Assets.xcassets */,
+				C5C03C4724DA3D9F00CE4FF5 /* LaunchScreen.storyboard */,
+				C5C03C4A24DA3D9F00CE4FF5 /* Info.plist */,
+				C5C03C6C24DA417500CE4FF5 /* emergency_Contacts.swift */,
+				C5C03C6E24DA41AB00CE4FF5 /* Data.swift */,
+				C5C03C7024DA45C600CE4FF5 /* VC1.swift */,
+				C51AFF9724DB907400062CF1 /* PackingVC.swift */,
+				C51AFF9924DB91D700062CF1 /* packingListVC.swift */,
+				C580AF1A24DCF34200553DBD /* UsageVC.swift */,
+				C580AF1C24DCF6EB00553DBD /* CoronaCounter.swift */,
+				C573E09824EA460900DE1B12 /* BrandVC.swift */,
+				C58CA37224F2272B00B14815 /* Struct.swift */,
+				0CC7D4EB24FE051600C2984E /* NewViewController.swift */,
+			);
+			path = "Emergency Aid";
+			sourceTree = "<group>";
+		};
+		C5C03C5224DA3D9F00CE4FF5 /* Emergency AidTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5C03C5324DA3D9F00CE4FF5 /* Emergency_AidTests.swift */,
+				C5C03C5524DA3D9F00CE4FF5 /* Info.plist */,
+			);
+			path = "Emergency AidTests";
+			sourceTree = "<group>";
+		};
+		C5C03C5D24DA3D9F00CE4FF5 /* Emergency AidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5C03C5E24DA3D9F00CE4FF5 /* Emergency_AidUITests.swift */,
+				C5C03C6024DA3D9F00CE4FF5 /* Info.plist */,
+			);
+			path = "Emergency AidUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5C03C3824DA3D9B00CE4FF5 /* Emergency Aid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5C03C6324DA3D9F00CE4FF5 /* Build configuration list for PBXNativeTarget "Emergency Aid" */;
+			buildPhases = (
+				C5C03C3524DA3D9B00CE4FF5 /* Sources */,
+				C5C03C3624DA3D9B00CE4FF5 /* Frameworks */,
+				C5C03C3724DA3D9B00CE4FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Emergency Aid";
+			productName = "Emergency Aid";
+			productReference = C5C03C3924DA3D9B00CE4FF5 /* Emergency Aid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5C03C4E24DA3D9F00CE4FF5 /* Emergency AidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5C03C6624DA3D9F00CE4FF5 /* Build configuration list for PBXNativeTarget "Emergency AidTests" */;
+			buildPhases = (
+				C5C03C4B24DA3D9F00CE4FF5 /* Sources */,
+				C5C03C4C24DA3D9F00CE4FF5 /* Frameworks */,
+				C5C03C4D24DA3D9F00CE4FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5C03C5124DA3D9F00CE4FF5 /* PBXTargetDependency */,
+			);
+			name = "Emergency AidTests";
+			productName = "Emergency AidTests";
+			productReference = C5C03C4F24DA3D9F00CE4FF5 /* Emergency AidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5C03C5924DA3D9F00CE4FF5 /* Emergency AidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5C03C6924DA3D9F00CE4FF5 /* Build configuration list for PBXNativeTarget "Emergency AidUITests" */;
+			buildPhases = (
+				C5C03C5624DA3D9F00CE4FF5 /* Sources */,
+				C5C03C5724DA3D9F00CE4FF5 /* Frameworks */,
+				C5C03C5824DA3D9F00CE4FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5C03C5C24DA3D9F00CE4FF5 /* PBXTargetDependency */,
+			);
+			name = "Emergency AidUITests";
+			productName = "Emergency AidUITests";
+			productReference = C5C03C5A24DA3D9F00CE4FF5 /* Emergency AidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5C03C3124DA3D9B00CE4FF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = sanjithsethu;
+				TargetAttributes = {
+					C5C03C3824DA3D9B00CE4FF5 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					C5C03C4E24DA3D9F00CE4FF5 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = C5C03C3824DA3D9B00CE4FF5;
+					};
+					C5C03C5924DA3D9F00CE4FF5 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = C5C03C3824DA3D9B00CE4FF5;
+					};
+				};
+			};
+			buildConfigurationList = C5C03C3424DA3D9B00CE4FF5 /* Build configuration list for PBXProject "Emergency Aid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5C03C3024DA3D9B00CE4FF5;
+			productRefGroup = C5C03C3A24DA3D9B00CE4FF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5C03C3824DA3D9B00CE4FF5 /* Emergency Aid */,
+				C5C03C4E24DA3D9F00CE4FF5 /* Emergency AidTests */,
+				C5C03C5924DA3D9F00CE4FF5 /* Emergency AidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5C03C3724DA3D9B00CE4FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51B80072501190B009EF309 /* First aid kit.jpg in Resources */,
+				C51B7FEF2501190B009EF309 /* Important Documents.png in Resources */,
+				C542D81125011E3500704F9F /* cm image.png in Resources */,
+				C51B7FFF2501190B009EF309 /* Emergency Contacts.png in Resources */,
+				C54841D724ECAF27006CBFFA /* Main.storyboard in Resources */,
+				C51B800D2501190B009EF309 /* Cash.jpg in Resources */,
+				C51B800B2501190B009EF309 /* Battery.png in Resources */,
+				C51B80052501190B009EF309 /* Screenshot 2020-08-20 at 9.08.28 AM.png in Resources */,
+				C51B7FF32501190B009EF309 /* Dry food.png in Resources */,
+				C51B7FED2501190B009EF309 /* Bottled Water.jpeg in Resources */,
+				C51B7FFB2501190B009EF309 /* Surgical mask.jpeg in Resources */,
+				C51B7FF92501190B009EF309 /* Spare clothes.jpg in Resources */,
+				C51B800F2501190B009EF309 /* personal medication.png in Resources */,
+				C51B80112501190B009EF309 /* Whistle.png in Resources */,
+				C51F32DB24FE7A0C003C761A /* output-onlinejpgtools.png in Resources */,
+				C51B7FFD2501190B009EF309 /* Torchlight.png in Resources */,
+				C51B7FF72501190B009EF309 /* Childcare supplies.jpg in Resources */,
+				C5C03C4924DA3D9F00CE4FF5 /* LaunchScreen.storyboard in Resources */,
+				C51B80012501190B009EF309 /* output-onlinejpgtools.jpg in Resources */,
+				C51B80092501190B009EF309 /* N95.jpeg in Resources */,
+				C51B80132501190B009EF309 /* Hand Sanitizer.jpg in Resources */,
+				C51B7FF52501190B009EF309 /* List of personal contacts.jpg in Resources */,
+				C5C03C4624DA3D9F00CE4FF5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C03C4D24DA3D9F00CE4FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51B7FF02501190B009EF309 /* Important Documents.png in Resources */,
+				C51B80142501190B009EF309 /* Hand Sanitizer.jpg in Resources */,
+				C51B80062501190B009EF309 /* Screenshot 2020-08-20 at 9.08.28 AM.png in Resources */,
+				C51B80002501190B009EF309 /* Emergency Contacts.png in Resources */,
+				C51B7FEE2501190B009EF309 /* Bottled Water.jpeg in Resources */,
+				C51B80082501190B009EF309 /* First aid kit.jpg in Resources */,
+				C51B80102501190B009EF309 /* personal medication.png in Resources */,
+				C51B7FFE2501190B009EF309 /* Torchlight.png in Resources */,
+				C51B800E2501190B009EF309 /* Cash.jpg in Resources */,
+				C51B800A2501190B009EF309 /* N95.jpeg in Resources */,
+				C51B7FF42501190B009EF309 /* Dry food.png in Resources */,
+				C51B800C2501190B009EF309 /* Battery.png in Resources */,
+				C51B7FFA2501190B009EF309 /* Spare clothes.jpg in Resources */,
+				C51B7FFC2501190B009EF309 /* Surgical mask.jpeg in Resources */,
+				C51B80122501190B009EF309 /* Whistle.png in Resources */,
+				C51B7FF62501190B009EF309 /* List of personal contacts.jpg in Resources */,
+				C51B7FF82501190B009EF309 /* Childcare supplies.jpg in Resources */,
+				C51B80022501190B009EF309 /* output-onlinejpgtools.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C03C5824DA3D9F00CE4FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5C03C3524DA3D9B00CE4FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58CA37324F2272B00B14815 /* Struct.swift in Sources */,
+				C580AF1B24DCF34200553DBD /* UsageVC.swift in Sources */,
+				C51AFF9A24DB91D700062CF1 /* packingListVC.swift in Sources */,
+				C5C03C7124DA45C600CE4FF5 /* VC1.swift in Sources */,
+				C5C03C6D24DA417500CE4FF5 /* emergency_Contacts.swift in Sources */,
+				C5C03C6F24DA41AB00CE4FF5 /* Data.swift in Sources */,
+				C573E09924EA460900DE1B12 /* BrandVC.swift in Sources */,
+				C5C03C4124DA3D9B00CE4FF5 /* ViewController.swift in Sources */,
+				C5C03C3D24DA3D9B00CE4FF5 /* AppDelegate.swift in Sources */,
+				0CC7D4EC24FE051600C2984E /* NewViewController.swift in Sources */,
+				C5C03C3F24DA3D9B00CE4FF5 /* SceneDelegate.swift in Sources */,
+				C580AF1D24DCF6EB00553DBD /* CoronaCounter.swift in Sources */,
+				C51AFF9824DB907400062CF1 /* PackingVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C03C4B24DA3D9F00CE4FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C03C5424DA3D9F00CE4FF5 /* Emergency_AidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C03C5624DA3D9F00CE4FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C03C5F24DA3D9F00CE4FF5 /* Emergency_AidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5C03C5124DA3D9F00CE4FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5C03C3824DA3D9B00CE4FF5 /* Emergency Aid */;
+			targetProxy = C5C03C5024DA3D9F00CE4FF5 /* PBXContainerItemProxy */;
+		};
+		C5C03C5C24DA3D9F00CE4FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5C03C3824DA3D9B00CE4FF5 /* Emergency Aid */;
+			targetProxy = C5C03C5B24DA3D9F00CE4FF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5C03C4724DA3D9F00CE4FF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5C03C4824DA3D9F00CE4FF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5C03C6124DA3D9F00CE4FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5C03C6224DA3D9F00CE4FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5C03C6424DA3D9F00CE4FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CV78Q3ZPZ;
+				INFOPLIST_FILE = "Emergency Aid/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sanjith.Emergency-Aid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5C03C6524DA3D9F00CE4FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CV78Q3ZPZ;
+				INFOPLIST_FILE = "Emergency Aid/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sanjith.Emergency-Aid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C5C03C6724DA3D9F00CE4FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CV78Q3ZPZ;
+				INFOPLIST_FILE = "Emergency AidTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sanjith.Emergency-AidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emergency Aid.app/Emergency Aid";
+			};
+			name = Debug;
+		};
+		C5C03C6824DA3D9F00CE4FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CV78Q3ZPZ;
+				INFOPLIST_FILE = "Emergency AidTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sanjith.Emergency-AidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emergency Aid.app/Emergency Aid";
+			};
+			name = Release;
+		};
+		C5C03C6A24DA3D9F00CE4FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CV78Q3ZPZ;
+				INFOPLIST_FILE = "Emergency AidUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sanjith.Emergency-AidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Emergency Aid";
+			};
+			name = Debug;
+		};
+		C5C03C6B24DA3D9F00CE4FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CV78Q3ZPZ;
+				INFOPLIST_FILE = "Emergency AidUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sanjith.Emergency-AidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Emergency Aid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5C03C3424DA3D9B00CE4FF5 /* Build configuration list for PBXProject "Emergency Aid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5C03C6124DA3D9F00CE4FF5 /* Debug */,
+				C5C03C6224DA3D9F00CE4FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5C03C6324DA3D9F00CE4FF5 /* Build configuration list for PBXNativeTarget "Emergency Aid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5C03C6424DA3D9F00CE4FF5 /* Debug */,
+				C5C03C6524DA3D9F00CE4FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5C03C6624DA3D9F00CE4FF5 /* Build configuration list for PBXNativeTarget "Emergency AidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5C03C6724DA3D9F00CE4FF5 /* Debug */,
+				C5C03C6824DA3D9F00CE4FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5C03C6924DA3D9F00CE4FF5 /* Build configuration list for PBXNativeTarget "Emergency AidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5C03C6A24DA3D9F00CE4FF5 /* Debug */,
+				C5C03C6B24DA3D9F00CE4FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5C03C3124DA3D9B00CE4FF5 /* Project object */;
+}
