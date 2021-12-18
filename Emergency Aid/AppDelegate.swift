@@ -4,10 +4,7 @@
 //
 //  Created by sanjithsethu on 5/8/20.
 //  Copyright © 2020 sanjithsethu. All rights reserved.
-// Name, Class and index number:
-// Sanjith
-// S2-07
-// 22
+
 
 import UIKit
 
